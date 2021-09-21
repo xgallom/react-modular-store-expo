@@ -1,11 +1,4 @@
-import {
-    applyStorageMixins,
-    BaseStorage,
-    CachedStorageMixin,
-    StaticStorageItemImpl,
-    Storage,
-    StorageItemImpl,
-} from 'react-modular-store';
+import {applyStorageMixins, BaseStorage, CachedStorageMixin, Storage} from 'react-modular-store';
 import * as SecureStore from 'expo-secure-store';
 
 class SecureStorageImpl<T extends {} = Record<string, any>> implements BaseStorage<T> {
