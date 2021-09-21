@@ -1,0 +1,23 @@
+{
+  "name": "react-modular-store-expo",
+  "version": "0.0.7",
+  "private": false,
+  "main": "dist/index.js",
+  "author": "Milan Gallo <gallo.milan.jr@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xgallom/react-modular-store-expo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xgallom/react-modular-store-expo/issues"
+  },
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "^1.12.1",
+    "expo-secure-store": "^10.2.0",
+    "react-modular-store": "0.0.7"
+  }
+}
