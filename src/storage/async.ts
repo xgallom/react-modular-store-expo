@@ -1,5 +1,5 @@
 import {StaticStorageItem, StaticStorageItemImpl, Storage, StorageItem, StorageItemImpl} from 'react-modular-store';
-import RNAsyncStorage from '@react-native-community/async-storage';
+import RNAsyncStorage from '@react-native-async-storage/async-storage';
 
 class AsyncStorageImpl<T extends {} = Record<string, any>> implements Storage<T> {
     async init() {
